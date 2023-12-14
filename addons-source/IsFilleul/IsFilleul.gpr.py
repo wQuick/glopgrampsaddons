@@ -29,7 +29,7 @@ register(RULE,
   version = '0.0.9',
   authors = ["Eric Doutreleau"],
   authors_email = ["eric@doutreleau.fr"],
-  gramps_target_version = '5.1',
+  gramps_target_version = '5.2',
   status = STABLE,
   fname = "IsFilleul.py",
   ruleclass = 'IsFilleul',  # must be rule class name

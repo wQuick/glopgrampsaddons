@@ -29,7 +29,7 @@ register(RULE,
   version = '0.0.10',
   authors = ["Eric Doutreleau"],
   authors_email = ["eric@doutreleau.fr"],
-  gramps_target_version = '5.1',
+  gramps_target_version = '5.2',
   status = STABLE,
   fname = "hastriangulation.py",
   ruleclass = 'HasTriangulation',  # must be rule class name

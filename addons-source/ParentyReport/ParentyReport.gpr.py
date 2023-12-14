@@ -13,5 +13,5 @@ register(REPORT,
     reportclass = 'ParentyReport',
     optionclass = 'ParentyOptions',
     report_modes = [REPORT_MODE_GUI, REPORT_MODE_CLI],
-	gramps_target_version = "5.1",
+	gramps_target_version = "5.2",
 	)

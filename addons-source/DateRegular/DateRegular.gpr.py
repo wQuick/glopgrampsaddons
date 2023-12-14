@@ -29,7 +29,7 @@ register(RULE,
   version = '1.0.4',
   authors = ["Eric Doutreleau"],
   authors_email = ["eric@doutreleau.fr"],
-  gramps_target_version  = '5.1',
+  gramps_target_version  = '5.2',
   status = STABLE,
   fname = "DateRegular.py",
   ruleclass = 'DateRegular',  # must be rule class name
