@@ -25,6 +25,7 @@
 # Extensions to the GEDCOM format (GED2)
 #
 #------------------------------------------------------------------------
+from gramps.version import major_version
 
 register(EXPORT,
     id    = 'Export GEDCOM for Geneanet',
@@ -32,7 +33,7 @@ register(EXPORT,
     name_accell  = _("GEDCOM for Geneanet "),
     description =  _("Extensions to the common GEDCOM format for Geneanet transfert."),
     version = '2.1.19',
-    gramps_target_version = '5.2',
+    gramps_target_version = major_version,
     status = STABLE, 
     fname = 'GedcomforGeneanet.py',
     export_function = 'export_data',

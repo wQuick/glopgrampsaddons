@@ -1,9 +1,11 @@
+from gramps.version import major_version
+
 register(TOOL,
          id    = 'Import DNAMatches',
          name  = _('Import DNAMatches'),
          description =  _('Import DNA match list'),
          version = '0.0.17',
-         gramps_target_version = "5.2",
+         gramps_target_version = major_version,
          status = STABLE,
          fname = 'ImportDNAMatch.py',
          authors = ["Eric Doutreleau"],

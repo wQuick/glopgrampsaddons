@@ -1,4 +1,6 @@
 # File: ParentyReport.gpr.py
+from gramps.version import major_version
+
 register(REPORT,
 	id='ParentyReport',
 	name=_("ParentyReport"),
@@ -13,5 +15,5 @@ register(REPORT,
     reportclass = 'ParentyReport',
     optionclass = 'ParentyOptions',
     report_modes = [REPORT_MODE_GUI, REPORT_MODE_CLI],
-	gramps_target_version = "5.2",
+	gramps_target_version = major_version,
 	)

@@ -19,6 +19,7 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 #
 
+from gramps.version import major_version
 """
 Filter rule to match source with a particular value.
 """
@@ -29,7 +30,7 @@ register(RULE,
   version = '0.0.11',
   authors = ["Eric Doutreleau"],
   authors_email = ["eric@doutreleau.fr"],
-  gramps_target_version = '5.2',
+  gramps_target_version = major_version,
   status = STABLE,
   fname = "IsFilleul.py",
   ruleclass = 'IsFilleul',  # must be rule class name

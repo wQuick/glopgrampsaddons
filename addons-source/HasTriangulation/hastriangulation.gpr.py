@@ -18,7 +18,7 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 #
-
+from gramps.version import major_version
 """
 Filter rule to match People for Triangulation
 """
@@ -29,7 +29,7 @@ register(RULE,
   version = '0.0.12',
   authors = ["Eric Doutreleau"],
   authors_email = ["eric@doutreleau.fr"],
-  gramps_target_version = '5.2',
+  gramps_target_version = major_version,
   status = STABLE,
   fname = "hastriangulation.py",
   ruleclass = 'HasTriangulation',  # must be rule class name

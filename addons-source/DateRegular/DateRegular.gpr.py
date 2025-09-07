@@ -22,6 +22,8 @@
 """
 Filter rule to match Event with a Regular date
 """
+from gramps.version import major_version
+
 register(RULE,
   id    = 'DateRegular',
   name  = _("Event with regular date"),
@@ -29,7 +31,7 @@ register(RULE,
   version = '1.0.6',
   authors = ["Eric Doutreleau"],
   authors_email = ["eric@doutreleau.fr"],
-  gramps_target_version  = '5.2',
+  gramps_target_version  = major_version,
   status = STABLE,
   fname = "DateRegular.py",
   ruleclass = 'DateRegular',  # must be rule class name

@@ -3,12 +3,14 @@
 # register_report
 #
 #-------------------------------------------------------------------------
+from gramps.version import major_version
+
 register(EXPORT,
   id    = 'ExportParenty',
   name  = _("ExportParenty"),
   description =  _("Export Parenty"),
   version = '1.0.3',
-  gramps_target_version = "5.2",
+  gramps_target_version = major_version,
   status = STABLE,
   fname = 'ExportParenty.py',
   authors = ["Eric Doutreleau"],
